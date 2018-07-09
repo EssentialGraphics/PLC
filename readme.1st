@@ -1,0 +1,11 @@
+2018.JULY.09
+
+CONCEPTS
+
+PLC repository contains a set of documents(guidelines) and their relative code imlementations in Siemens KOP/AWL language.
+(Siemens because is the most used one, but the ideas behind can be easily traslated in any other plc language Rockwell, 
+Omron, GE, Schneider etc..). 
+
+The basic idea is to provide a Standard PLC Library (SPL) usefull in large contexts where many programmers (plc progs.
+and/or scada/hmi progs.) works indipendently but would integrate lot's systems. 
+The basics of this project is to supply concepts and software that implements them.
