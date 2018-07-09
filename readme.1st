@@ -7,5 +7,11 @@ PLC repository contains a set of documents(guidelines) and their relative code i
 Omron, GE, Schneider etc..). 
 
 The basic idea is to provide a Standard PLC Library (SPL) usefull in large contexts where many programmers (plc progs.
-and/or scada/hmi progs.) works indipendently but would integrate lot's systems. 
-The basics of this project is to supply concepts and software that implements them.
+and/or scada/hmi progs.) works indipendently but would integrate lots of their systems to provide standard solutions. 
+The basics of this project is to supply concepts and software that implements these ideas.
+
+Another goal of the library is to provide a solid basis on wich project leaders can trust and this helps their job to
+produce consistent applications also with several persons involved, helping for some of the aspects this causes specially 
+in predicting development schedule.
+
+Giovanni Maffioletti
