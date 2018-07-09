@@ -14,4 +14,16 @@ Another goal of the library is to provide a solid basis on wich project leaders 
 produce consistent applications also with several persons involved, helping for some of the aspects this causes specially 
 in predicting development schedule.
 
+The project is divided in two sections.
+
+- First sections provides Standard Guideline for typical devices (proximity switches, analogs, motors, etc..).
+  The documentation covers most of standard devices and provides standard implementations that should be used
+  in a large contexts without any modifications.
+
+- Second section provides a new concept in PLC development. The idea is to supply standard functions that controls all
+  devices without knowing their specific control inputs and outputs. The typical example is to have one function that 
+  is capable to control the start and stop of any type of motor indipendently if the phisical motor is single speed, 
+  double speed(star/triangle), controlled by an mcc, controlled by an inverter or whatever else. 
+
+
 Giovanni Maffioletti
