@@ -27,6 +27,11 @@ The project is divided in some sections.
   The side effect of this approach is that many programmers can do this job toghether, programming a complete plant 
   without knowing wich devices will be on the field. The programming of the philosophy of plant conduction is decoupled
   from what will be in field.
+  In summary, at the end:
+  - Scada programmers don't need to know devices to produce their job.
+  - More than one programmer can work at the same project without knowing field devices and implementing standard
+    code based on standard device functions.
+  - One programmer per device can implement phisical control of I/O. (one per device used).
   
 - Third section will provide standard implementation for "tricky" algorithm like fuzzy logic or neural networks 
   that works fine to control complex processes. The idea is to provide also an open PID control that's supply
