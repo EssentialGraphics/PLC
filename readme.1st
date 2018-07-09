@@ -24,6 +24,13 @@ The project is divided in two sections.
   devices without knowing their specific control inputs and outputs. The typical example is to have one function that 
   is capable to control the start and stop of any type of motor indipendently if the phisical motor is single speed, 
   double speed(star/triangle), controlled by an mcc, controlled by an inverter or whatever else. 
+  The side effect of this approach is that many programmers can do this job toghether, programming a complete plant 
+  without knowing wich devices will be on the field. The programming of the philosophy of plant conduction is decoupled
+  from what will be in field.
+  
+- Third section will provide standard implementation for "tricky" algorithm like fuzzy logic or neural networks 
+  that works fine to control complex processes. The idea is to provide also an open PID control that's supply
+  consistent and predictable (because anybody can read in it) responses.  
 
 
 Giovanni Maffioletti
